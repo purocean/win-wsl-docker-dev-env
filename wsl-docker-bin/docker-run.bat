@@ -7,4 +7,4 @@ docker run -d ^
 -p 8000-8100:8000-8100 ^
 -v C:\:/mnt/c ^
 -v Y:\:/mnt/y ^
---name dev-env ubuntu:v1
+--name dev-env ubuntu:dev-env

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-DOCKER_HOST="tcp://127.0.0.1:2375" docker exec -uyang -i dev-env bash -c "cd $(pwd) && $*"
+DOCKER_HOST="tcp://127.0.0.1:2375" docker exec -uyang -i dev-env bash -c cd $(pwd) && $*
